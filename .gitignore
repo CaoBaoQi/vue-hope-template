@@ -1,4 +1,5 @@
 .idea
+.fastRequest
 dist
 node_modules/
 src/.vuepress/.cache/
