@@ -6,7 +6,7 @@ export default hopeTheme({
 
     author: {
         name: "Mr.CaoBaoQi",
-        url: "https://github.com/CaoBaoQi",
+        url: "https://gitee.com/cola777jz",
         email: "2023cbq@gmail.com"
     },
 
@@ -14,17 +14,15 @@ export default hopeTheme({
 
     logo: "/logo.svg",
 
-    repo: "https://github.com/CaoBaoQi",
+    repo: "https://gitee.com/cola777jz",
 
     docsDir: "src",
 
-    // navbar
     navbar,
 
-    // sidebar
     sidebar,
 
-    footer: "Power by <a href=\"https://github.com/CaoBaoQi/\" target=\"_blank\">CBQ</a> | MIT Licensed, Copyright © 2024-present",
+    footer: "Power by <a href=\"https://gitee.com/cola777jz/\" target=\"_blank\">CBQ</a> | MIT Licensed, Copyright © 2024-present",
 
     displayFooter: true,
 
@@ -34,13 +32,11 @@ export default hopeTheme({
         },
     },
 
-    // page meta
     metaLocales: {
         editLink: "在 GitHub 上编辑此页",
     },
 
     plugins: {
-        // You should generate and use your own comment service
         comment: {
             provider: "Giscus",
             repo: "CaoBaoQi/docsify-template",
@@ -48,57 +44,19 @@ export default hopeTheme({
             category: "Announcements",
             categoryId: "DIC_kwDOKx6Q2M4CbYTM",
         },
-
-        // All features are enabled for demo, only preserve features you need here
         mdEnhance: {
             align: true,
             attrs: true,
-
-            // install chart.js before enabling it
-            // chart: true,
-
             codetabs: true,
-
-            // insert component easily
-            // component: true,
-
             demo: true,
-
-            // install echarts before enabling it
-            // echarts: true,
-
             figure: true,
-
-            // install flowchart.ts before enabling it
-            // flowchart: true,
-
-            // gfm requires mathjax-full to provide tex support
-            // gfm: true,
-
             imgLazyload: true,
             imgSize: true,
             include: true,
-
-            // install katex before enabling it
-            // katex: true,
-
-            // install mathjax-full before enabling it
-            // mathjax: true,
-
             mark: true,
-
-            // install mermaid before enabling it
-            // mermaid: true,
-
             playground: {
                 presets: ["ts", "vue"],
             },
-
-            // install reveal.js before enabling it
-            // revealJs: {
-            //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-            // },
-
             stylize: [
                 {
                     matcher: "Recommended",
@@ -116,66 +74,6 @@ export default hopeTheme({
             sup: true,
             tabs: true,
             vPre: true,
-
-            // install @vue/repl before enabling it
-            // vuePlayground: true,
         },
-
-        // uncomment these if you want a pwa
-        // pwa: {
-        //   favicon: "/favicon.ico",
-        //   cacheHTML: true,
-        //   cachePic: true,
-        //   appendBase: true,
-        //   apple: {
-        //     icon: "/assets/icon/apple-icon-152.png",
-        //     statusBarColor: "black",
-        //   },
-        //   msTile: {
-        //     image: "/assets/icon/ms-icon-144.png",
-        //     color: "#ffffff",
-        //   },
-        //   manifest: {
-        //     icons: [
-        //       {
-        //         src: "/assets/icon/chrome-mask-512.png",
-        //         sizes: "512x512",
-        //         purpose: "maskable",
-        //         type: "image/png",
-        //       },
-        //       {
-        //         src: "/assets/icon/chrome-mask-192.png",
-        //         sizes: "192x192",
-        //         purpose: "maskable",
-        //         type: "image/png",
-        //       },
-        //       {
-        //         src: "/assets/icon/chrome-512.png",
-        //         sizes: "512x512",
-        //         type: "image/png",
-        //       },
-        //       {
-        //         src: "/assets/icon/chrome-192.png",
-        //         sizes: "192x192",
-        //         type: "image/png",
-        //       },
-        //     ],
-        //     shortcuts: [
-        //       {
-        //         name: "Demo",
-        //         short_name: "Demo",
-        //         url: "/demo/",
-        //         icons: [
-        //           {
-        //             src: "/assets/icon/guide-maskable.png",
-        //             sizes: "192x192",
-        //             purpose: "maskable",
-        //             type: "image/png",
-        //           },
-        //         ],
-        //       },
-        //     ],
-        //   },
-        // },
     },
 });
