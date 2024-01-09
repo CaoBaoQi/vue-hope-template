@@ -7,9 +7,10 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "VueHope-Template",
   description: "vuepress-theme-hope 模板项目",
-
   theme,
-
-  // Enable it with pwa
-  // shouldPrefetch: false,
+  markdown: {
+      headers: {
+          level: [2,3,4]
+      }
+  }
 });
